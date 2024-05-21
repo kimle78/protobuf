@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/google/protobuf'
   s.license  = 'BSD-3-Clause'
   s.authors  = { 'The Protocol Buffers contributors' => 'protobuf@googlegroups.com' }
-  s.module_name: 'Protobuf-C++'
+  s.module_name = 'Protobuf-C++'
 
   # Ensure developers won't hit CocoaPods/CocoaPods#11402 with the resource
   # bundle for the privacy manifest.
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   s.visionos.deployment_target = '1.0'
 
   s.pod_target_xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++236',
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++23',
     # Do not let src/google/protobuf/stubs/time.h override system API
     'USE_HEADERMAP' => 'NO',
     'ALWAYS_SEARCH_USER_PATHS' => 'NO',
