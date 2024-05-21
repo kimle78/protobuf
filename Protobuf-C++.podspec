@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   s.visionos.deployment_target = '1.0'
 
   s.pod_target_xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++23',
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++236',
     # Do not let src/google/protobuf/stubs/time.h override system API
     'USE_HEADERMAP' => 'NO',
     'ALWAYS_SEARCH_USER_PATHS' => 'NO',
